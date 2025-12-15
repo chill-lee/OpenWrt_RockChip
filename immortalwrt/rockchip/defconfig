@@ -635,14 +635,14 @@ CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
 CONFIG_PACKAGE_kmod-phy-realtek=y
 
+# NFS相关
 CONFIG_PACKAGE_kmod-fs-nfs=y
 CONFIG_PACKAGE_nfs-utils=y
-# （可选）LuCI 界面挂载管理
 CONFIG_PACKAGE_luci-app-nfs=y
-
 CONFIG_PACKAGE_rpcbind=y
-CONFIG_OPENSSH_LIBFIDO2=y
 
+# OpenSSH / SSH 相关
+CONFIG_OPENSSH_LIBFIDO2=y
 CONFIG_PACKAGE_openssh-client=y
 CONFIG_PACKAGE_openssh-client-utils=y
 CONFIG_PACKAGE_openssh-keygen=y
@@ -651,6 +651,7 @@ CONFIG_PACKAGE_openssh-server=y
 CONFIG_PACKAGE_openssh-sftp-client=y
 CONFIG_PACKAGE_openssh-sftp-server=y
 
+# Nginx相关
 CONFIG_NGINX_HEADERS_MORE=y
 CONFIG_NGINX_HTTP_ACCESS=y
 CONFIG_NGINX_HTTP_AUTH_BASIC=y
@@ -687,3 +688,5 @@ CONFIG_PACKAGE_nginx=y
 CONFIG_PACKAGE_nginx-ssl=y
 CONFIG_PACKAGE_nginx-ssl-util=y
 CONFIG_PACKAGE_nginx-util=y
+
+CONFIG_PACKAGE_bash=y
